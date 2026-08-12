@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Disciplina
+comment0.text=\n\ A\ classe\ Disciplina\ representa\ a\ matr\u00EDcula\ em\ uma\ disciplina.\ Ela\ guarda\n\ a\ hora,\ a\ sala\ e\ os\ participantes\ da\ disciplina,\ bem\ como\ o\ nome\ do\ professor.\n\ \n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves\ -\ 2023-08-25\n\ \n\ @author\ Michael\ K\u00F6lling\ and\ David\ Barnes\n\ @version\ 2016.02.29\n
+comment1.params=numeroMaximoDeEstudantes
+comment1.target=Disciplina(int)
+comment1.text=\n\ Cria\ uma\ Disciplina\ com\ um\ n\u00FAmero\ m\u00E1ximo\ de\ vagas.\ Todos\ os\ demais\n\ detalhes\ s\u00E3o\ definidos\ por\ valores\ padr\u00F5es.\n
+comment2.params=novoEstudante
+comment2.target=void\ matricularEstudante(Estudante)
+comment2.text=\n\ Adiciona\ um\ estudante\ a\ esta\ Disciplina.\n
+comment3.params=
+comment3.target=int\ numeroDeEstudantes()
+comment3.text=\n\ Retorna\ o\ n\u00FAmero\ de\ estudantes\ atualmente\ matriculados\ nesta\ Disciplina\n
+comment4.params=numeroDaSala
+comment4.target=void\ definirSala(java.lang.String)
+comment4.text=\n\ Define\ o\ n\u00FAmero\ da\ sala\ desta\ disciplina.\n
+comment5.params=diaEHoraComoString
+comment5.target=void\ definirHorario(java.lang.String)
+comment5.text=\n\ Define\ o\ hor\u00E1rio\ das\ aulas.\ O\ par\u00E2metro\ deveria\ definir\n\ o\ dia\ e\ a\ hora\ do\ dia,\ por\ exemplo,\ "Sextas\ 10h"\n
+comment6.params=nomeProfessor
+comment6.target=void\ definirProfessor(java.lang.String)
+comment6.text=\n\ Define\ o\ nome\ do\ professor\ desta\ Disciplina.\n
+comment7.params=
+comment7.target=void\ imprimirLista()
+comment7.text=\n\ Exibe\ no\ terminal\ uma\ lista\ com\ detalhes\ da\ Disciplina.\n
+numComments=8
