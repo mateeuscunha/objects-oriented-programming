@@ -10,6 +10,10 @@ public class Nave
     private int posX;
     private int posY;
     
+    // adicionados depois, por Mateus Cunha
+    private String nome;
+    private int nivelDeProtecao;
+    
     // velocidade da nave ao mover (em pixels)
     private final int velocidade;
     
@@ -44,6 +48,9 @@ public class Nave
         // posição inicial da nave na tela
         posX = 10;
         posY = 200;
+                
+        // protecao da nave
+        nivelDeProtecao = 100;
         
         estaViva = true;
     }
@@ -106,7 +113,8 @@ public class Nave
     public String getTextoExibicao()
     {
         // atualmente nao retorna nada
-        return "NaveBolada";
+        nome = nivelDeProtecao + "";
+        return nome;
     }
     
     /**
@@ -177,8 +185,13 @@ public class Nave
     {
         if (estaViva)
         {
-            // morre
-            estaViva = false;
+            if (nivelDeProtecao < 20) 
+            {
+                estaViva = false;
+            } else 
+            {
+                nivelDeProtecao = (nivelDeProtecao - 20);
+            }
         }
     }
 }
