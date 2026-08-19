@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Figura
+comment0.text=\n\ Esta\ classe\ representa\ uma\ figura\ simples.\ Voc\u221A\u2122\ pode\ desenhar\ a\ figura\n\ usando\ o\ m\u221A\u00A9todo\ desenhar.\ Mas,\ como\ \u221A\u00A9\ uma\ figura\ eletr\u221A\u00A5nica,\ ela\ pode\n\ ser\ alterada.\ Voc\u221A\u2122\ pode\ deix\u221A\u00B0-la\ em\ preto\ e\ branco\ ou\ colorida\n\ (somente\ depois\ de\ desenhada,\ \u221A\u00A9\ claro).\n\n\ Esta\ classe\ foi\ criada\ como\ um\ exemplo\ de\ aulas\ em\ Java\ usando\ BlueJ.\n\ \n\ Traduzido\ por\ Julio\ C\u221A\u00A9sar\ Alves\ -\ 2023-08-25\n\ \n\ @author\ \ Michael\ K\u221A\u2202lling\ and\ David\ J.\ Barnes\n\ @version\ 2016.02.29\n
+comment1.params=
+comment1.target=Figura()
+comment1.text=\n\ Construtor\ para\ objetos\ da\ classe\ Figura\n
+comment2.params=
+comment2.target=void\ desenhar()
+comment2.text=\n\ Desenha\ esta\ figura.\n
+comment3.params=
+comment3.target=void\ definirPretoEBranco()
+comment3.text=\n\ Muda\ esta\ figura\ para\ preto\ e\ branco\n
+comment4.params=
+comment4.target=void\ definirColorida()
+comment4.text=\n\ Muda\ esta\ figura\ para\ colorida\n
+comment5.params=
+comment5.target=void\ porDoSol()
+numComments=6
