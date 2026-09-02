@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ClienteDeEmail
+comment0.text=\n\ Uma\ classe\ que\ modela\ um\ cliente\ de\ e-mail\ simples.\n\ O\ cliente\ \u00E9\ executado\ por\ um\ usu\u00E1rio\ espec\u00EDfico,\ e\ envia\ e\n\ recebe\ e-mails\ atrav\u00E9s\ de\ um\ servidor\ espec\u00EDfico.\n\ \n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves.\ 2023-09-22\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ 2016.02.29\n
+comment1.params=servidor\ usuario
+comment1.target=ClienteDeEmail(ServidorDeEmail,\ java.lang.String)
+comment1.text=\n\ Cria\ uma\ execu\u00E7\u00E3o\ de\ cliente\ de\ e-mail\ pelo\ usu\u00E1rio\ e\ \n\ ligado\ ao\ servidor\ passado.\n
+comment2.params=
+comment2.target=Email\ obterProximoEmail()
+comment2.text=\n\ Retorna\ a\ pr\u00F3xima\ mensagem\ de\ e-mail\ do\ servidor,\ se\ houver.\n
+comment3.params=
+comment3.target=void\ imprimirProximoEmail()
+comment3.text=\n\ Imprime\ no\ terminal\ de\ texto\ a\ pr\u00F3xima\ mensagem\ de\ e-mail\ \n\ deste\ usu\u00E1rio,\ se\ houver.\n
+comment4.params=remetente
+comment4.target=void\ imprimirTodosEmails(java.lang.String)
+comment4.text=\n\ Imprime,\ no\ terminal,\ todos\ os\ e-mails\ deste\ usu\u00E1rio,\ se\ houver.\n
+comment5.params=destinatario\ mensagem\ assunto
+comment5.target=void\ enviarEmail(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment5.text=\n\ Envia\ a\ mensagem\ passada\ para\ o\ destinat\u00E1rio\ passado\n\ usando\ o\ servidor\ de\ e-mail.\n\ @param\ destinatario\ O\ destinat\u00E1rio\ da\ mensagem.\n\ @param\ messagem\ O\ texto\ da\ mensagem\ a\ ser\ enviada.\n
+comment6.params=destinatario\ mensagem\ assunto\ anexo
+comment6.target=void\ enviarEmail(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+numComments=7
