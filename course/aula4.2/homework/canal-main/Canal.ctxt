@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Canal
+comment0.text=\n\ Armazena\ os\ detalhes\ das\ inscri\u00E7\u00F5es\ em\ um\ canal\n\ \n\ @author\ (seu\ nome)\n\ @version\ (um\ n\u00FAmero\ de\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=Canal()
+comment1.text=\n\ Construtor\ de\ objetos\ da\ classe\ Canal\n
+comment2.params=possivelInscricao
+comment2.target=boolean\ inscrever(Inscricao)
+comment2.text=\n\ Adiciona\ um\ novo\ incrito\ na\ lista\ de\ inscritos\ do\ canal.\n\ @param\ inscricao\ O\ objeto\ inscricao\ a\ ser\ adicionado.\n
+comment3.params=
+comment3.target=int\ quantidadeDeInscritos()
+comment3.text=\n\ @return\ O\ n\u00FAmero\ de\ inscritos\ (objetos\ Inscricao)\ no\ canal.\n
+comment4.params=mes
+comment4.target=int\ inscritosNoMes(int)
+comment4.text=\ \n\ Retorna\ quantos\ membros\ se\ inscreveram\ em\ um\ dado\ m\u00EAs.\n\ @param\ mes\ O\ m\u00EAs\ que\ estamos\ interessados.\n\ @return\ Quandos\ membros\ se\ inscreveram\ no\ m\u00EAs.\n
+comment5.params=nome
+comment5.target=boolean\ estaInscrito(java.lang.String)
+comment5.text=\n\ Retorna\ se\ o\ canal\ tem\ algu\u00E9m\ inscrito\ com\ o\ nome\ passado.\n\ @param\ nome\ O\ nome\ a\ ser\ procurado\ na\ lista\ de\ inscritos.\n\ @return\ Retorna\ true\ se\ tem\ algu\u00E9m\ inscrito\ com\ o\ nome\ passado,\n\ \ \ \ \ \ \ \ \ e\ false\ em\ caso\ contr\u00E1rio\n
+comment6.params=mes\ ano
+comment6.target=java.util.ArrayList\ removerInscritos(int,\ int)
+comment6.text=\n\ Remove\ todos\ os\ membros\ da\ classe\ `Canal`\ que\ se\ inscreveram\ em\ um\ dado\n\ m\u00EAs\ de\ um\ determinado\ ano,\ e\ os\ retorna\ em\ um\ objeto\ cole\u00E7\u00E3o\ separado.\n\ @param\ mes\ O\ m\u00EAs\ da\ inscri\u00E7\u00E3o.\n\ @param\ ano\ O\ ano\ da\ inscri\u00E7\u00E3o.\n
+numComments=7
