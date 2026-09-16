@@ -1,0 +1,20 @@
+#BlueJ class context
+#Wed Sep 16 20:20:40 BRT 2026
+comment0.target=DemonstracaoEstoque
+comment0.text=\n Demonstra as classe GerenciadorDeEstoque e Produto.\n A demonstra\u00E7\u00E3o funciona corretamente se a classe\n GerenciadorDeEstoque for completada.\n \n Traduzido por Julio C\u00E9sar Alves - 2023.10.10\n \n @author David J. Barnes and Michael K\u00F6lling.\n @version 2016.02.29\n
+comment1.target=DemonstracaoEstoque()
+comment1.text=\n Cria um GerenciadorDeEstoque e o popula com alguns novos\n produtos de exemplo.\n
+comment2.target=void demonstracao()
+comment2.text=\n Fornece uma demonstra\u00E7\u00E3o muito simples de como um GerenciadorDeEstoque\n pode ser usado. Detalhes de um produto s\u00E3o mostrados, o produto\n \u00E9 reposto no estoque, e ent\u00E3o os detalhes s\u00E3o exibidos de novo.\n
+comment3.params=id
+comment3.target=void mostrarDetalhes(int)
+comment3.text=\n Mostra os detalhes de um dado produto. Se encontrado,\n seu nome e quantidade em estoque s\u00E3o exibidos.\n @param id O identificador do produto a ser procurado.\n
+comment4.params=id
+comment4.target=void venderProduto(int)
+comment4.text=\n Vende uma unidade do produto solicitado.\n Mostra os detalhes do produto antes e depois da venda.\n @param id O identificador do produto que est\u00E1 sendo vendido.\n
+comment5.params=id
+comment5.target=Produto obterProduto(int)
+comment5.text=\n Obt\u00E9m do gerenciador o produto com o identificador passado.\n Exibe uma mensagem de erro se o produto n\u00E3o for encontrado.\n @param id O identificador do produto.\n @return O produto, ou null se n\u00E3o for encontrado.\n
+comment6.target=GerenciadorDeEstoque obterGerenciador()
+comment6.text=\n @return O GerenciadorDeEstoque.\n
+numComments=7

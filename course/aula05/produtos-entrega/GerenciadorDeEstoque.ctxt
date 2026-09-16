@@ -1,0 +1,27 @@
+#BlueJ class context
+#Wed Sep 16 20:20:37 BRT 2026
+comment0.target=GerenciadorDeEstoque
+comment0.text=\n Gerencia o estoque de uma empresa.\n Um estoque \u00E9 formado por zero ou mais produtos.\n \n Traduzido por Julio C\u00E9sar Alves - 2023.10.10\n \n @author (seu nome) \n @version (a data)\n
+comment1.target=GerenciadorDeEstoque()
+comment1.text=\n Inicializa o gerenciador de estoque.\n
+comment2.params=item
+comment2.target=void adicionarProduto(Produto)
+comment2.text=\n Adiciona um produto \u00E0 lista.\n @param item O item a ser adicionado.\n
+comment3.params=id
+comment3.target=Produto encontrarProduto(int)
+comment3.text=\n Tenta encontrar um produto no estoque com o identificador passado.\n @return O produto identificado, ou null se n\u00E3o h\u00E1 nenhum produto\n         com o identificador passado.\n
+comment4.params=nome
+comment4.target=Produto encontrarProduto(java.lang.String)
+comment4.text=\n Tenta encontrar um produto no estoque com o nome passado.\n @return O produto identificado, ou null se n\u00E3o h\u00E1 nenhum produto\n         com o nome passado.\n
+comment5.params=id quantidade
+comment5.target=void receberEntrega(int, int)
+comment5.text=\n Recebe uma entrega de um produto particular.\n Aumenta a quantidade do produto pela quantidade passada.\n @param id O identificador do produto.\n @param quantidade A quantidade a ser aumentada do produto.\n
+comment6.params=id
+comment6.target=int quantidadeEmEstoque(int)
+comment6.text=\n Localiza um produto com o identificador passado, e retorna\n quantas unidades dele existem no estoque. Retorna zero\n se n\u00E3o h\u00E1 nenhum produto com o identificador passado.\n @param id O identificador do produto.\n @return A quantidade do produto solicitado em estoque.\n
+comment7.params=quantidade
+comment7.target=void detalhesDoProdutoEmBaixaNoEstoque(int)
+comment7.text=\n Localiza o(s) produto(s) com a quantidade menor que a passada, e imprime\n os detalhes desses produtos.\n @param quantidade Quantidade passada como teto\n
+comment8.target=void imprimirDetalhesDosProdutos()
+comment8.text=\n Exibe os detalhes de todos os produtos.\n
+numComments=9

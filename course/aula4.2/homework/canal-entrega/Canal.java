@@ -75,7 +75,7 @@ public class Canal
      * @return Retorna true se tem alguém inscrito com o nome passado,
      *         e false em caso contrário
      */
-    public boolean estaInscrito(String nome)
+    private boolean estaInscrito(String nome)
     {
         boolean existeAlguma = false;
         for (Inscricao analisada : inscricoes)
@@ -101,6 +101,7 @@ public class Canal
         if (mes<1 || mes>12)
         {
             System.out.println("Mes invalido. Digite um valor de 1 a 12");
+            return removidos;
         } else
         {
             Iterator<Inscricao> it = inscricoes.iterator();
