@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=VisorDeRelogio
+comment0.text=\ \ \ \ \ \ \ \ RESPOSTA\ DO\ DESAFIO\n\ \u00C9\ poss\u00EDvel\ que\ um\ objeto\ VisorDeNumero\ informe\ a\ outro\ objeto\ que\ ele\n\ voltou\ para\ zero\ para\ que\ este\ seja\ incrementado,\ basta\ criar\ um\ par\u00E2metro\n\ referente\ ao\ pr\u00F3ximo\ visor\ e\ configurar\ para\ que\ os\ visores\ conversem\n\ corretamente\ entre\ si.\n\ O\ m\u00E9todo\ tiqueTaque\ deveria\ interagir\ apenas\ com\ o\ VisorDeN\u00FAmero\ que\n\ est\u00E1\ 'tiquetateando',\ no\ caso,\ os\ segundo.\ Ele\ deve\ apenas\ incrementar\ os\n\ segundos\ que,\ por\ sua\ vez,\ notifica\ os\ minutos\ e\ assim\ por\ diante.\n\ Quando\ um\ dia\ inteiro\ se\ passa,\ o\ objeto\ horas\ deve\ voltar\ a\ zero,\ como\n\ acontece\ com\ todos\ os\ outros\ (minutos\ e\ segundos),\ mas,\ dessa\ vez,\n\ como\ 'horas'\ \u00E9\ o\ \u00FAltimo\ visor,\ ele\ n\u00E3o\ deve\ avisar\ nenhum\ outro\ que\n\ seu\ ciclo\ zerou.\n
+comment1.params=
+comment1.target=VisorDeRelogio()
+comment1.text=\n\ Construtor\ para\ objetos\ VisorDeRelogio.\ Este\ construtor\n\ cria\ um\ novo\ rel\u00F3gio\ marcando\ 00\:00.\n
+comment2.params=hora\ minuto\ segundo
+comment2.target=VisorDeRelogio(int,\ int,\ int)
+comment2.text=\n\ Construtor\ para\ objetos\ VisorDeRelogio.\ Este\ construtor\n\ cria\ um\ novo\ rel\u00F3gio\ marcando\ as\ horas\ de\ acordo\ com\ \n\ os\ par\u00E2metros\ recebidos.\n
+comment3.params=
+comment3.target=void\ tiqueTaque()
+comment3.text=\n\ Este\ m\u00E9todo\ deveria\ ser\ chamado\ uma\ vez\ a\ cada\ segundo\ -\n\ ele\ faz\ o\ visor\ do\ rel\u00F3gio\ passar\ um\ segundo.\n
+comment4.params=hora\ minuto\ segundo
+comment4.target=void\ definirHora(int,\ int,\ int)
+comment4.text=\n\ Define\ a\ hora\ do\ visor\ de\ acordo\ com\ o\ valor\ de\ hora\ e\n\ minuto\ recebidos\ por\ par\u00E2metro.\n
+comment5.params=
+comment5.target=java.lang.String\ obterHora()
+comment5.text=\n\ Retorna\ a\ hora\ atual\ do\ visor\ no\ formato\ HH\:MM\:SS.\n
+comment6.params=
+comment6.target=void\ atualizarVisor()
+comment6.text=\n\ Atualiza\ a\ string\ interna\ que\ representa\ o\ visor.\n
+numComments=7
