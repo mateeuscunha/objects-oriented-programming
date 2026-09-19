@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Evento
+comment1.params=nome\ tipo\ data
+comment1.target=Evento(java.lang.String,\ java.lang.String,\ Data)
+comment1.text=\n\ Cria\ um\ evento\n\ @param\ nome\ O\ nome\ do\ evento\n\ @param\ tipo\ O\ tipo\ do\ evento\n\ @param\ data\ A\ data\ do\ evento\n
+comment2.params=
+comment2.target=java.lang.String\ obterNome()
+comment2.text=\n\ @return\ o\ nome\ do\ evento\n
+comment3.params=
+comment3.target=java.lang.String\ obterTipo()
+comment3.text=\n\ @return\ o\ tipo\ do\ evento\n
+comment4.params=
+comment4.target=Data\ obterData()
+comment4.text=\n\ @return\ a\ data\ do\ evento\n
+numComments=5
