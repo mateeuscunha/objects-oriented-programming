@@ -1,0 +1,9 @@
+#BlueJ class context
+#Fri Sep 18 21:59:26 BRT 2026
+comment0.target=Endereco
+comment1.params=rua numero bairro
+comment1.target=Endereco(java.lang.String, int, java.lang.String)
+comment2.target=java.lang.String enderecoFormatado()
+comment3.params=possivelBairro
+comment3.target=boolean verificarBairro(java.lang.String)
+numComments=4

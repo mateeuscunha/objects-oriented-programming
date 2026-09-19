@@ -1,0 +1,16 @@
+#BlueJ class context
+#Fri Sep 18 22:21:40 BRT 2026
+comment0.target=Imobiliaria
+comment1.target=Imobiliaria()
+comment1.text=\n Cria um objeto imobili\u00E1ria, sem im\u00F3veis para alugar\n
+comment2.params=imovel
+comment2.target=void adicionarImovel(Imovel)
+comment2.text=\n Adiciona um im\u00F3vel \u00E0 cole\u00E7\u00E3o de im\u00F3veis para alugar\n @param imovel O im\u00F3vel a ser adicionado\n
+comment3.params=bairro valorMaxAluguel
+comment3.target=void consultarImoveis(java.lang.String, int)
+comment3.text=\n Implemente abaixo o m\u00E9todo consultarImovel de acordo com o\n enunciado da Quest\u00E3o 5\n
+comment4.target=void cenarioDeTeste1()
+comment4.text=\n Este m\u00E9todo preenche a lista de im\u00F3veis para alugar com alugns\n im\u00F3veis para que possa usar em seus testes.\n
+comment5.target=void cenarioDeTeste2()
+comment5.text=\n Este m\u00E9todo preenche a lista de im\u00F3veis para alugar com outros\n im\u00F3veis para que possa usar em seus testes.\n
+numComments=6
