@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=MundoDoCaranguejo
+comment0.text=\n\ Escreva\ aqui\ uma\ descri\u00E7\u00E3o\ da\ classe\ MundoDoCarganguejo.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (um\ n\u00FAmero\ de\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=MundoDoCaranguejo()
+comment1.text=\n\ Construtor\ para\ objetos\ da\ classe\ MundoDoCaranguejo.\n\ \n
+comment2.params=
+comment2.target=void\ exibirPlacar()
+comment3.params=
+comment3.target=void\ contarPontosPorLarva()
+comment4.params=
+comment4.target=void\ act()
+comment5.params=
+comment5.target=Larva\ buscarUmaLarva()
+comment6.params=
+comment6.target=void\ prepare()
+comment6.text=\n\ Prepara\ o\ mundo\ para\ o\ in\u00EDcio\ do\ programa.\n\ Ou\ seja\:\ criar\ os\ objetos\ iniciais\ e\ adicion\u00E1-los\ ao\ mundo.\n
+numComments=7
