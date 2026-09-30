@@ -60,6 +60,15 @@ public class EntradaDeLog implements Comparable<EntradaDeLog>
     }
     
     /**
+     * Retorna o dia da semana.
+     * @return O dia da semana.
+     */
+    public int obterDiaDaSemana()
+    {
+        return quando.get(Calendar.DAY_OF_WEEK);
+    }
+    
+    /**
      * Cria uma representação textual dos dados.
      * Ela não é necessariamente idêntica ao
      * texto da linha de log original.
