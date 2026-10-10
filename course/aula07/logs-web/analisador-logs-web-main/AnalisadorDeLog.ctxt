@@ -1,13 +1,19 @@
 #BlueJ class context
-#Wed Sep 30 19:57:29 BRT 2026
+#Fri Oct 02 21:22:34 BRT 2026
 comment0.target=AnalisadorDeLog
 comment0.text=\n L\u00EA dados de servidor web e analisa padr\u00F5es de acesso por hora.\n \n Traduzido por Julio C\u00E9sar Alves - 2026-09-26\n \n @author David J. Barnes and Michael K\u00F6lling.\n @version    2016.02.29\n
 comment1.target=AnalisadorDeLog()
 comment1.text=\n Cria um objeto para analisar acessos web por hora.\n
-comment10.target=void imprimirContagensPorHora()
-comment10.text=\n Imprime as contagens por hora.\n Elas devem ter sido definidas com uma chamada\n anterior de analisarDadosPorHora.\n
-comment11.target=void imprimirDados()
-comment11.text=\n Imprime as linhas de dados lidas pelo LeitorArquivoLog.\n
+comment10.target=void analisarDadosPorDia()
+comment10.text=\n Analisa os dados de acesso por dia da semana do arquivo de log.\n
+comment11.target=void imprimirContagensPorDia()
+comment11.text=\n Imprime as contagens por dia.\n Elas devem ter sido definidas com uma chamada\n anterior de analisarDadosPorHora.\n
+comment12.target=void analisarDadosPorHora()
+comment12.text=\n Analisa os dados de acesso por hora do arquivo de log.\n
+comment13.target=void imprimirContagensPorHora()
+comment13.text=\n Imprime as contagens por hora.\n Elas devem ter sido definidas com uma chamada\n anterior de analisarDadosPorHora.\n
+comment14.target=void imprimirDados()
+comment14.text=\n Imprime as linhas de dados lidas pelo LeitorArquivoLog.\n
 comment2.params=nomeArquivo
 comment2.target=AnalisadorDeLog(java.lang.String)
 comment2.text=\n Cria um objeto para analisar acessos web por hora, recebendo o nome do\n arquivo para analise como parametro e utilizando-o para iniciar o \n leitor de arquivo de log.\n
@@ -19,10 +25,11 @@ comment5.target=int horaMaisTranquila()
 comment5.text=\n Retorna a hora com a maior quantidade de acessos.\n
 comment6.target=int duasHorasSeguidasMaisOcupadas()
 comment6.text=\n Retorna o per\u00EDodo de duas horas consecutivas com a maior quantidade \n de acessos.\n
-comment7.target=void analisarDadosPorDia()
-comment7.text=\n Analisa os dados de acesso por dia da semana do arquivo de log.\n
-comment8.target=void imprimirContagensPorDia()
-comment8.text=\n Imprime as contagens por dia.\n Elas devem ter sido definidas com uma chamada\n anterior de analisarDadosPorHora.\n
-comment9.target=void analisarDadosPorHora()
-comment9.text=\n Analisa os dados de acesso por hora do arquivo de log.\n
-numComments=12
+comment7.params=numero
+comment7.target=java.lang.String numeroParaDiaDaSemana(int)
+comment7.text=\n Recebe um numero de 0 a 6 e retorna o nome do dia da semana correspondente\n
+comment8.target=java.lang.String diaMaisOcupado()
+comment8.text=\n Retorna o dia da semana com a maior quantidade de acessos.\n
+comment9.target=java.lang.String diaMenosOcupado()
+comment9.text=\n Retorna o dia da semana com a menor quantidade de acessos.\n
+numComments=15

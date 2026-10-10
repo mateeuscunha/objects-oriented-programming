@@ -65,11 +65,7 @@ public class AnalisadorDeLog
                 posMaiorValor = i;
             }
         }
-        if (posMaiorValor == -1) {
-            return -1;
-        } else {
-            return posMaiorValor;
-        }
+        return posMaiorValor;
     }
     
     /**
@@ -84,11 +80,7 @@ public class AnalisadorDeLog
                 posMenorValor = i;
             }
         }
-        if (posMenorValor == -1) {
-            return -1;
-        } else {
-            return posMenorValor;
-        }
+        return posMenorValor;
     }
      
     /**
@@ -119,6 +111,68 @@ public class AnalisadorDeLog
         }
         return horaDeInicio;
     }
+    
+    /**
+     * Recebe um numero de 0 a 6 e retorna o nome do dia da semana correspondente
+     */
+    private String numeroParaDiaDaSemana(int numero) {
+        String nomeDia = "";
+        switch (numero) {
+            case 0:
+                nomeDia = "Domingo";
+                break;
+            case 1:
+                nomeDia = "Segunda";
+                break;
+            case 2:
+                nomeDia = "Terça";
+                break;
+            case 3:
+                nomeDia = "Quarta";
+                break;
+            case 4:
+                nomeDia = "Quinta";
+                break;
+            case 5:
+                nomeDia = "Sexta";
+                break;
+            case 6:
+                nomeDia = "Sábado";
+                break;
+        }
+        return nomeDia;
+    }
+    
+    /**
+     * Retorna o dia da semana com a maior quantidade de acessos.
+     */
+    public String diaMaisOcupado()
+    {
+        int posMaiorValor = 0;
+        for (int i = 0; i < contagensPorDia.length; i++) {
+            if (contagensPorDia[i] > contagensPorDia[posMaiorValor]) {
+                posMaiorValor = i;
+            }
+        }
+        String nomeDia = numeroParaDiaDaSemana(posMaiorValor);
+        return nomeDia;
+    }
+    
+    /**
+     * Retorna o dia da semana com a menor quantidade de acessos.
+     */
+    public String diaMenosOcupado()
+    {
+        int posMenorValor = 0;
+        for (int i = 0; i < contagensPorDia.length; i++) {
+            if (contagensPorDia[i] < contagensPorDia[posMenorValor]) {
+                posMenorValor = i;
+            }
+        }
+        String nomeDia = numeroParaDiaDaSemana(posMenorValor);
+        return nomeDia;
+    }
+
     
     /**
      * Analisa os dados de acesso por dia da semana do arquivo de log.
