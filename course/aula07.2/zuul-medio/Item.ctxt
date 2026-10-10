@@ -1,0 +1,12 @@
+#BlueJ class context
+#Wed Oct 07 19:52:39 BRT 2026
+comment0.target=Item
+comment0.text=\n Escreva uma descri\u00E7\u00E3o da classe item aqui.\n \n @author (seu nome) \n @version (um n\u00FAmero da vers\u00E3o ou uma data)\n
+comment1.params=nome descricao
+comment1.target=Item(java.lang.String, java.lang.String)
+comment1.text=\n Construtor para objetos da classe item\n
+comment2.target=java.lang.String obterNome()
+comment2.text=\n Metodo de acesso para o atributo nome do item.\n
+comment3.target=java.lang.String obterDescricao()
+comment3.text=\n Metodo de acesso para o atributo descricao do item.\n
+numComments=4
