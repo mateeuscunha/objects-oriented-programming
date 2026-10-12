@@ -21,6 +21,7 @@ public class Jogo
 {
     private Analisador analisador;
     private Local localAtual;
+    private Local localAnterior;
         
     /**
      * Cria o jogo e incializa seu mapa interno.
@@ -29,6 +30,7 @@ public class Jogo
     {
         criarLocais();
         analisador = new Analisador();
+        localAnterior = null;
     }
 
     /**
@@ -130,6 +132,9 @@ public class Jogo
         else if (palavraDeComando.equals("pegar")) {
             pegar(comando);
         }
+        else if (palavraDeComando.equals("voltar")) {
+            voltar(comando);
+        }
 
         return querSair;
     }
@@ -172,10 +177,22 @@ public class Jogo
             System.out.println("Nao ha passagem!");
         }
         else {
+            localAnterior = localAtual;
             localAtual = proximoLocal;
             
             exibirLocalizacaoAtual();
         }
+    }
+    
+    /** 
+     * Vai para o local de destino passado por parametro.
+     */
+    private void irParaLocal(Local destino) 
+    {
+        localAnterior = localAtual;
+        localAtual = destino;
+        
+        exibirLocalizacaoAtual();
     }
     
     /** 
@@ -213,11 +230,11 @@ public class Jogo
         
         exibirLocalizacaoAtual();
     }
-    /*
+    
     private void voltar(Comando comando) {
         if (comando.temSegundaPalavra()) {
             System.out.println("O comando 'voltar' deve ser passado sozinho " + 
-                                "para retornar para o ultimo local");
+                                "para retornar para o ultimo local visitado");
             return;
         }
         
@@ -225,8 +242,10 @@ public class Jogo
             System.out.println("Voltar pra onde? Movimente-se pelo mapa primeiro");
             return;
         }
+        
+        irParaLocal(localAnterior);
     }    
-    */
+    
     /** 
      * "Sair" foi digitado. Verifica o resto do comando pra ver
      * se nos queremos realmente sair do jogo.

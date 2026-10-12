@@ -1,14 +1,17 @@
 #BlueJ class context
-#Fri Oct 09 22:12:26 BRT 2026
+#Sun Oct 11 21:28:03 BRT 2026
 comment0.target=Jogo
 comment0.text=\n  Essa eh a classe principal da aplicacao "World of Zull".\n  "World of Zuul" eh um jogo de aventura muito simples, baseado em texto.\n  Usuarios podem caminhar em um cenario. E eh tudo\! Ele realmente\n  precisa ser estendido para fazer algo interessante\!\n \n  Para jogar esse jogo, crie uma instancia dessa classe e chame o metodo\n  "jogar".\n \n  Essa classe principal cria e inicializa todas as outras\: ela cria os\n  locais, cria o analisador e comeca o jogo. Ela tambeme avalia e \n  executa os comandos que o analisador retorna.\n \n Traduzido por Julio C\u00E9sar Alves. Vers\u00E3o\: 2023.10.21\n \n @author  Michael K\u00F6lling and David J. Barnes\n @version 2016.02.29\n
 comment1.target=Jogo()
 comment1.text=\n Cria o jogo e incializa seu mapa interno.\n
-comment10.params=comando
-comment10.target=void observar(Comando)
+comment10.target=void exibirLocalizacaoAtual()
 comment11.params=comando
-comment11.target=boolean sair(Comando)
-comment11.text=\ \n "Sair" foi digitado. Verifica o resto do comando pra ver\n se nos queremos realmente sair do jogo.\n @return true, se este comando sai do jogo, false, caso contrario\n
+comment11.target=void observar(Comando)
+comment12.params=comando
+comment12.target=void voltar(Comando)
+comment13.params=comando
+comment13.target=boolean sair(Comando)
+comment13.text=\ \n "Sair" foi digitado. Verifica o resto do comando pra ver\n se nos queremos realmente sair do jogo.\n @return true, se este comando sai do jogo, false, caso contrario\n
 comment2.target=void criarLocais()
 comment2.text=\n Cria todos os locais e liga as saidas deles\n
 comment3.target=void jogar()
@@ -23,8 +26,10 @@ comment6.text=\n Imprime informacoes de ajuda.\n Aqui nos imprimimos algo bobo e
 comment7.params=comando
 comment7.target=void irParaLocal(Comando)
 comment7.text=\ \n Tenta ir em uma direcao. Se existe uma saida entra no \n novo local, caso contrario imprime mensagem de erro.\n
-comment8.params=comando
-comment8.target=void pegar(Comando)
-comment8.text=\ \n Pega o item que esta no local, se houver.\n
-comment9.target=void exibirLocalizacaoAtual()
-numComments=12
+comment8.params=destino
+comment8.target=void irParaLocal(Local)
+comment8.text=\ \n Vai para o local de destino passado por parametro.\n
+comment9.params=comando
+comment9.target=void pegar(Comando)
+comment9.text=\ \n Pega o item que esta no local, se houver.\n
+numComments=14
