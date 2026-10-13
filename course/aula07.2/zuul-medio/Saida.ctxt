@@ -1,0 +1,19 @@
+#BlueJ class context
+#Mon Oct 12 23:00:20 BRT 2026
+comment0.target=Saida
+comment0.text=\n A classe Saida indica possiveis saidas de um local.\n
+comment1.params=localSaida
+comment1.target=Saida(Local)
+comment1.text=\n Construtor para objetos da classe Saida que nao sao bloqueados\n
+comment2.params=localSaida itemQueAbre
+comment2.target=Saida(Local, java.lang.String)
+comment2.text=\n Construtor para objetos da classe Saida que possuem saida bloqueada\n
+comment3.target=Local obterLocalSaida()
+comment3.text=\n @return O local de saida.\n
+comment4.target=boolean ehBloqueada()
+comment4.text=\n @return Se a saida eh ou nao bloqueada.\n
+comment5.target=java.lang.String obterNomeDoItemQueAbre()
+comment5.text=\n @return O nome do item que abre o aquela saida.\n
+comment6.target=void desbloquear()
+comment6.text=\n Desbloqueia a saida.\n
+numComments=7

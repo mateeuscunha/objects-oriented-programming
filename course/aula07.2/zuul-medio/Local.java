@@ -20,7 +20,7 @@ import java.util.HashMap;
 public class Local 
 {
     private String descricao;
-    private HashMap<String, Local> saidas;
+    private HashMap<String, Saida> saidas;
     private Item item;
 
     /**
@@ -48,15 +48,39 @@ public class Local
         this.descricao = descricao;
         this.item = item;
     }
-
-    public void ajustarSaida(String direcao, Local saida) {
+    
+    /**
+     * Ajusta uma saida desbloqueada do local
+     */
+    public void ajustarSaida(String direcao, Local localSaida) {
+        Saida saida = new Saida(localSaida);
         saidas.put(direcao, saida);
     }
     
-    public Local getSaida(String direcao) {
-        return saidas.get(direcao);
+    /**
+     * Ajusta uma saida bloqueada do local
+     */
+    public void ajustarSaidaBloqueada(String direcao, Local localSaida, String itemDesbloqueio) {
+        Saida saida = new Saida(localSaida, itemDesbloqueio);
+        saidas.put(direcao, saida);
     }
     
+    /**
+     * Se a saida existe e nao eh bloqueada, retorna a saida a partir
+     * da direcao informada. Se nao existe saida para aquela direcao, ou a saida eh
+     * bloqueada, retorna null.
+     */
+    public Saida getSaida(String direcao) {
+        Saida saida = saidas.get(direcao);
+        if(saida != null && !saida.ehBloqueada()) {
+            return saida;
+        }
+        return null;
+    }
+    
+    /**
+     * @return As possiveis direcoes de saida numa string
+     */
     public String direcoesDeSaida() {
         String direcoes = "";
         for (String direcao : saidas.keySet()) {
@@ -73,6 +97,9 @@ public class Local
         return descricao;
     }
     
+    /**
+     * @return Se true se tem algum item para coletar no local.
+     */
     public boolean temItem() {
         boolean temItem = false;
         if (item != null) {
@@ -81,16 +108,47 @@ public class Local
         return temItem;
     }
     
+    /**
+     * @return O item do local, se tiver, e null, se nao tiver.
+     */
     public Item obterItem() {
         return item;
     }
     
+    /**
+     * Coleta o item que estava no local, ele eh excluido, pois vai para o inventario
+     * do jogador.
+     */
     public Item coletarItem() {
         Item itemAuxiliar = item;
         item = null;
         return itemAuxiliar; // retorna null quando nao ha item pra coletar
     }
     
+    /**
+     * Usa determinado item no local.
+     * Se alguma saida daquele local tiver o item como desbloqueio, ela eh desbloqueada.
+     * 
+     * @return Verdadeiro se desbloquear alguma saida.
+     */
+    public boolean usarItem(Item itemASerUtilizado) {
+        String nomeDoItem = itemASerUtilizado.obterNome();
+        boolean debloqueouAlguma = false;
+        
+        for (Saida analisada : saidas.values()) {
+            String nomeAnalisado = analisada.obterNomeDoItemQueAbre();
+            if (nomeAnalisado == nomeDoItem) {
+                analisada.desbloquear();
+                debloqueouAlguma = true;
+            }
+        }
+        
+        return debloqueouAlguma;
+    }
+    
+    /**
+     * @return A descricao completa do local.
+     */
     public String obterDescricaoLonga() {
         String descricaoLonga = "Voce esta " + descricao + "\n";
         if (temItem()) {

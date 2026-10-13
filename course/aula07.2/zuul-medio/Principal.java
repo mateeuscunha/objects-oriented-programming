@@ -1,4 +1,3 @@
-
 /**
  * Essa classe inicia o jogo.
  */

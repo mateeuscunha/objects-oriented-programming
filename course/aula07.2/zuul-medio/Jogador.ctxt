@@ -1,0 +1,34 @@
+#BlueJ class context
+#Mon Oct 12 23:33:44 BRT 2026
+comment0.target=Jogador
+comment0.text=\n Essa classe guarda informacoes do jogador.\n
+comment1.params=localInicio
+comment1.target=Jogador(Local)
+comment1.text=\n Construtor para objetos da classe Jogador\n
+comment10.target=void exibirLocalizacaoAtual()
+comment10.text=\n Exibe a localizacao atual do jogador\n
+comment11.params=novoLocal
+comment11.target=void atualizarLocalAtual(Local)
+comment11.text=\n Atualiza o local atual e, por consequencia, o anterior.\n
+comment2.target=Local obterLocalAtual()
+comment2.text=\n Retorna o local atual do jogador.\n
+comment3.target=Local obterLocalAnterior()
+comment3.text=\n Retorna o local visitado anteriormente pelo jogador.\n
+comment4.params=item
+comment4.target=void adicionarItemAoInventario(Item)
+comment4.text=\n Adiciona um item ao inventario.\n
+comment5.params=nomeDoItem
+comment5.target=boolean removerItemDoInventario(java.lang.String)
+comment5.text=\n Remove um item da colecao a partir de seu nome.\n
+comment6.target=java.lang.String itensDoInventario()
+comment6.text=\n Retorna uma string contendo todos os itens do inventario do jogador.\n
+comment7.params=nomeDoitemConsulta
+comment7.target=boolean consultarSeTemItem(java.lang.String)
+comment7.text=\n Consulta se o jogador possui aquele item no inventario.\n
+comment8.params=itemASerUtilizado
+comment8.target=boolean usarItem(Item)
+comment8.text=\n Usa o item no local em que o jogador se encontra.\n
+comment9.params=nomeItemASerUtilizado
+comment9.target=boolean usarItem(java.lang.String)
+comment9.text=\n Usa o item no local em que o jogador se encontra, recebendo apenas o nome do item.\n
+numComments=12
