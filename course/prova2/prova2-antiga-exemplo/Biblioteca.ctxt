@@ -1,0 +1,24 @@
+#BlueJ class context
+#Fri Oct 30 23:04:06 BRT 2026
+comment0.target=Biblioteca
+comment0.text=\n Classe para representar uma biblioteca. \n Uma biblioteca tem uma cole\u00E7\u00E3o de livros que podem ser emprestados e uma\n cole\u00E7\u00E3o de alunos que podem pegar livros emprestados.\n \n Obs.\: este c\u00F3digo n\u00E3o tem a implementa\u00E7\u00E3o completa da classe.\n \n @author Julio C\u00E9sar Alves\n @version 2024.12.16\n
+comment1.target=Biblioteca()
+comment1.text=\n Construtor para objetos da classe Biblioteca\n
+comment2.target=void carregarDados()
+comment2.text=\n Carrega os dados do acervo de livros e dos alunos\n \n Obs.\: em uma implementa\u00E7\u00E3o real, os dados seriam buscados em um banco de dados\n
+comment3.params=codigoDoLivro matriculaDoAluno
+comment3.target=boolean emprestarLivro(int, int)
+comment3.text=\n Realiza o empr\u00E9stimo de um livro para um aluno\n \n @param codigoDoLivro o c\u00F3digo do livro a ser emprestado.\n @param matriculaDoAluno a matr\u00EDcula do aluno que est\u00E1 fazendo o empr\u00E9stimo\n @return true se o empr\u00E9stimo foi realizado e false em caso contr\u00E1rio\n
+comment4.params=codigo matricula
+comment4.target=boolean devolverLivro(int, int)
+comment5.params=codigo
+comment5.target=Livro buscarLivro(int)
+comment5.text=\n Busca um livro no acervo pelo seu c\u00F3digo.\n @return o livro encontrado ou null se n\u00E3o for encontrado.\n
+comment6.params=matricula
+comment6.target=Aluno buscarAluno(int)
+comment6.text=\n Busca um aluno pela sua matr\u00EDcula.\n @return o aluno encontrado ou null se n\u00E3o for encontrado.\n
+comment7.target=void listarAcervo()
+comment7.text=\n Exibe no terminal as informa\u00E7\u00F5es do acervo de livros da biblioteca\n
+comment8.target=void listarEmprestimos()
+comment8.text=\n Exite no terminal as informa\u00E7\u00F5es dos empr\u00E9stimos de livros\n
+numComments=9

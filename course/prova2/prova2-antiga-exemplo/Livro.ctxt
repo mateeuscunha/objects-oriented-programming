@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Livro
+comment0.text=\r\n\ Classe\ que\ representa\ os\ livros\ pertencentes\ ao\ acervo\ da\ biblioteca\r\n\ \r\n\ Um\ livro\ possui\ um\ c\u00F3digo,\ um\ t\u00EDtulo\ e\ um\ autor\r\n\ \r\n\ @author\ Julio\ C\u00E9sar\ Alves\r\n\ @version\ 2024.12.16\r\n
+comment1.params=codigo\ titulo\ autor
+comment1.target=Livro(int,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Construtor\ para\ objetos\ da\ classe\ Livro\r\n\ @param\ codigo\ O\ c\u00F3digo\ do\ livro\r\n\ @param\ titulo\ O\ t\u00EDtulo\ do\ livro\r\n\ @param\ autor\ O\ autor\ do\ livro\r\n
+comment2.params=
+comment2.target=int\ obterCodigo()
+comment2.text=\r\n\ Retorna\ o\ c\u00F3digo\ do\ livro\ na\ biblioteca\r\n\ @return\ o\ c\u00F3digo\r\n
+comment3.params=
+comment3.target=java.lang.String\ obterTitulo()
+comment3.text=\r\n\ Retorna\ o\ t\u00EDtulo\ do\ livro\r\n\ @return\ o\ t\u00EDtulo\r\n
+comment4.params=
+comment4.target=java.lang.String\ obterAutor()
+comment4.text=\r\n\ Retorna\ o\ autor\ do\ livro\r\n\ @return\ o\ autor\r\n
+numComments=5

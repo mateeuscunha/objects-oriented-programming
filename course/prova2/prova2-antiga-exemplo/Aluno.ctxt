@@ -1,0 +1,19 @@
+#BlueJ class context
+#Fri Oct 30 22:53:19 BRT 2026
+comment0.target=Aluno
+comment0.text=\n Representa um aluno que pode pegar livros emprestados na biblioteca\n \n @author Julio C\u00E9sar Alves\n @version 2024.12.16\n
+comment1.params=numeroDeMatricula nome
+comment1.target=Aluno(int, java.lang.String)
+comment1.text=\n Construtor para objetos da classe Aluno\n @param numeroDeMatricula o n\u00FAmero de matr\u00EDcula do aluno\n @param nome o nome do aluno\n
+comment2.target=int obterNumeroDeMatricula()
+comment2.text=\n Retorna o n\u00FAmero de matr\u00EDcula do aluno\n @return o n\u00FAmero de matr\u00EDcula\n
+comment3.target=java.lang.String obterNome()
+comment3.text=\n Retorna o nome do aluno\n @return o nome\n
+comment4.target=int obterNumeroDeLivrosEmprestados()
+comment4.text=\n Retorna a quantidade de livros que o aluno pegou emprestado\n @return a quantidade de livros\n
+comment5.params=codigo
+comment5.target=Livro devolverLivro(int)
+comment6.params=livro
+comment6.target=boolean pegarLivroEmprestado(Livro)
+comment6.text=\n Acrescenta o livro na cole\u00E7\u00E3o de livros que o aluno pegou emprestado se ele\n puder peg\u00E1-lo.\n @param o livro\n @returns true se o aluno pode pegar o livro e false em caso contr\u00E1rio.\n
+numComments=7
