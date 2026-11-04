@@ -1,0 +1,20 @@
+#BlueJ class context
+#Wed Nov 04 20:14:48 BRT 2026
+comment0.target=Mensagem
+comment0.text=\n Escreva uma descri\u00E7\u00E3o da classe Mensagem aqui.\n \n @author (seu nome) \n @version (um n\u00FAmero da vers\u00E3o ou uma data)\n
+comment1.params=nomeAutor
+comment1.target=Mensagem(java.lang.String)
+comment1.text=\n Construtor para objetos da classe Mensagem\n
+comment2.target=void curtir()
+comment2.text=\n Curte a mensagem \n
+comment3.target=void descurtir()
+comment3.text=\n Descurte a mensagem \n
+comment4.params=comentario
+comment4.target=void comentar(java.lang.String)
+comment4.text=\n Adiciona um comentario\n
+comment5.target=java.lang.String getTextoTempo()
+comment5.text=\n Retorna um texto que possui o tempo que se passou desde que a mensagem\n foi postada.\n
+comment6.params=textoEspecifico
+comment6.target=java.lang.String mensagemCompleta(java.lang.String)
+comment6.text=\n Retorna a mensagem completa\n
+numComments=7

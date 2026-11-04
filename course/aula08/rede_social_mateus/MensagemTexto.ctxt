@@ -1,0 +1,10 @@
+#BlueJ class context
+#Wed Nov 04 20:14:48 BRT 2026
+comment0.target=MensagemTexto
+comment0.text=\n Escreva uma descri\u00E7\u00E3o da classe MensagemTexto aqui.\n \n @author (seu nome) \n @version (um n\u00FAmero da vers\u00E3o ou uma data)\n
+comment1.params=nomeAutor mensagem
+comment1.target=MensagemTexto(java.lang.String, java.lang.String)
+comment1.text=\n Construtor para objetos da classe MensagemTexto\n
+comment2.target=java.lang.String mensagemCompleta()
+comment2.text=\n Retorna a mensagem completa\n
+numComments=3

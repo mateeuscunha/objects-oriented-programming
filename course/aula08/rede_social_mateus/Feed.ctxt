@@ -1,0 +1,21 @@
+#BlueJ class context
+#Wed Nov 04 20:33:18 BRT 2026
+comment0.target=Feed
+comment0.text=\n Escreva uma descri\u00E7\u00E3o da classe Feed aqui.\n \n @author (seu nome) \n @version (um n\u00FAmero da vers\u00E3o ou uma data)\n
+comment1.target=Feed()
+comment1.text=\n Construtor para objetos da classe Feed\n
+comment2.params=mensagem
+comment2.target=void postarMensagemTexto(MensagemTexto)
+comment2.text=\n Posta mensagem de texto\n
+comment3.params=mensagem
+comment3.target=void postarMensagemFoto(MensagemFoto)
+comment3.text=\n Posta mensagem com foto\n
+comment4.target=void exibirPostagens()
+comment4.text=\n Exibe todas as publicacoes\n
+comment5.params=temFoto posicaoNaLista
+comment5.target=void curtirMensagem(boolean, int)
+comment5.text=\n Curte uma mensagem\n
+comment6.params=temFoto posicaoNaLista comentario
+comment6.target=void comentarEmMensagem(boolean, int, java.lang.String)
+comment6.text=\n Faz um comentario em uma mensagem\n
+numComments=7
