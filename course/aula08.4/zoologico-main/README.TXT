@@ -12,7 +12,7 @@ Veja o enunciado dos exercícios nos slides da disciplina.
 
 Classe Animal
   atributos: nome, especie, numPatas, som
-  metodos: obterNome, obterEspecie, obterNumPatas, obterSom, obterDescricaoResumida
+  metodos: obterNome, obterEspecie, obterNumPatas, obterSom, obterDescricaoResumida, obterDescricaoCompleta
 
 	Subclasse de Animal: AnimalPeludo
 	  atributos: corDoPelo
