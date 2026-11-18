@@ -1,0 +1,14 @@
+#BlueJ class context
+#Wed Nov 18 20:12:39 BRT 2026
+comment0.target=Animal
+comment0.text=\n Escreva uma descri\u00E7\u00E3o da classe Animal aqui.\n \n @author (seu nome) \n @version (um n\u00FAmero da vers\u00E3o ou uma data)\n
+comment1.params=nome especie numeroPatas som
+comment1.target=Animal(java.lang.String, java.lang.String, int, java.lang.String)
+comment1.text=\n Construtor para objetos da classe Animal\n
+comment2.target=java.lang.String obterNome()
+comment3.target=java.lang.String obterEspecie()
+comment4.target=int obterNumeroPatas()
+comment5.target=java.lang.String obterSom()
+comment6.target=java.lang.String obterDescricaoResumida()
+comment7.target=java.lang.String obterDescricaoCompleta()
+numComments=8

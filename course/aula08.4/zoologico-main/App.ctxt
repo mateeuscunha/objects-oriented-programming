@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=App
+comment0.text=\r\n\ Classe\ principal\ do\ programa,\ que\ tem\ o\ m\u00E9todo\ main,\ e\ que,\r\n\ portanto,\ pode\ ser\ executada\ fora\ do\ BlueJ.\r\n\ \r\n\ @author\ Julio\ C\u00E9sar\ Alves\r\n\ @version\ 2023.11.16\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ M\u00E9todo\ que\ inicia\ o\ programa.\r\n\ Crie\ um\ objeto\ da\ classe\ 'InterfaceUsuario'\ e\ chama\ seu\r\n\ m\u00E9todo\ 'executar'.\r\n
+numComments=2

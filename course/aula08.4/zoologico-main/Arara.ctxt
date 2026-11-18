@@ -1,0 +1,8 @@
+#BlueJ class context
+#Wed Nov 18 20:23:13 BRT 2026
+comment0.target=Arara
+comment0.text=\n Escreva uma descri\u00E7\u00E3o da classe Arara aqui.\n \n @author (seu nome) \n @version (um n\u00FAmero da vers\u00E3o ou uma data)\n
+comment1.params=nome
+comment1.target=Arara(java.lang.String)
+comment1.text=\n Construtor para objetos da classe Arara\n
+numComments=2

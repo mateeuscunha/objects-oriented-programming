@@ -1,0 +1,15 @@
+#BlueJ class context
+#Wed Nov 18 20:34:30 BRT 2026
+comment0.target=Zoologico
+comment0.text=\n Escreva uma descri\u00E7\u00E3o da classe Zoologico aqui.\n \n @author (seu nome) \n @version (um n\u00FAmero da vers\u00E3o ou uma data)\n
+comment1.target=Zoologico()
+comment1.text=\n Construtor para objetos da classe Zoologico\n
+comment2.params=nome
+comment2.target=void adicionarGorila(java.lang.String)
+comment3.params=nome
+comment3.target=void adicionarLeao(java.lang.String)
+comment4.params=nome
+comment4.target=void adicionarEma(java.lang.String)
+comment5.params=nome
+comment5.target=void adicionarArara(java.lang.String)
+numComments=6
