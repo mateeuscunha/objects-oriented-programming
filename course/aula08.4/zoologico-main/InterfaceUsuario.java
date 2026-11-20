@@ -10,12 +10,14 @@ public class InterfaceUsuario {
 
     // Scanner para obter dados do usuário via terminal
     private Scanner entrada;
-
+    private Zoologico zoo;
+    
     /**
      * Construtor da classe
      */
     public InterfaceUsuario() {
         entrada = new Scanner(System.in);
+        zoo = new Zoologico();
     }
 
     /**
@@ -94,28 +96,51 @@ public class InterfaceUsuario {
      * Trata a opção de menu: Cadastrar Animal
      */
     private void cadastrarAnimal() {
-        // implemente seu código aqui.
+        String especie = pedirString("Digite a especie do animal");
         String nome = pedirString("Digite o nome do animal");
+        
+        if(especie.toUpperCase().contains("GORILA")) {
+            zoo.adicionarGorila(nome);
+            System.out.println("Gorila " + nome + " cadastrado(a)!");
+        } else if(especie.toUpperCase().contains("LEAO")) {
+            zoo.adicionarLeao(nome);
+            System.out.println("Leao " + nome + " cadastrado(a)!");
+        } else if(especie.toUpperCase().contains("EMA")) {
+            zoo.adicionarEma(nome);
+            System.out.println("Ema " + nome + " cadastrado(a)!");
+        } else if(especie.toUpperCase().contains("ARARA")) {
+            zoo.adicionarArara(nome);
+            System.out.println("Arara " + nome + " cadastrado(a)!");
+        } else {
+            System.out.println("Nenhum animal foi cadastrado :(");
+        }
     }
 
     /**
      * Trata a opção de menu: Descrever Animal
      */
     private void descreverAnimal() {
-        // implemente seu código aqui.
+        String nome = pedirString("Digite o nome do animal");
+        String descricao = zoo.getDescricaoDoAnimal(nome);
+        
+        if(descricao == null) {
+            System.out.println("O animal nao foi encontrado");
+        } else {
+            System.out.println(descricao);
+        }
     }
 
     /**
      * Trata a opção de menu: Listar Animais
      */
     private void listarAnimais() {
-        // implemente seu código aqui.
+        System.out.println(zoo.getDescricaoResumidaTodosAnimais());
     }
 
     /**
      * Trata a opção de menu: Listar Animais
      */
     private void listarAnimaisCompleto() {
-        // implemente seu código aqui.
+        System.out.println(zoo.getDescricaoCompletaTodosAnimais());
     }
 }
